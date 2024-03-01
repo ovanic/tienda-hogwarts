@@ -1,0 +1,48 @@
+.main-libros {
+  .flex-container {
+    @include flex(center, center);
+    display: flex;
+    // text-align: center;
+    // justify-content: center;
+    background-color: #0b110d;
+    .first-item {
+        img {
+          width: 100%;
+          height: 100%;
+        }
+    }
+  }
+  section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #c3aa72;
+    border-radius: 8px;
+    box-shadow: 5px 17px 53px 17px rgba(0,0,0,0.67);
+-webkit-box-shadow: 5px 17px 53px 17px rgba(0,0,0,0.67);
+-moz-box-shadow: 5px 17px 53px 17px rgba(0,0,0,0.67);
+    .book {
+      display: flex;
+      margin-bottom: 2em;
+      img {
+        max-width: 150px;
+        margin-right: 1em;
+        border-radius: 4px;
+      }
+
+      .book-details {
+        flex: 1;
+
+        .buy-button {
+          @extend %estilos;
+          background-color: nth($list: $colores, $n:2 );
+          color: #fff;
+          padding: 0.5em 1em;
+          text-decoration: none;
+          border-radius: 4px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

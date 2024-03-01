@@ -1,0 +1,43 @@
+header {
+  display: flex;
+  min-height: 70px;
+  background-color: $color-principal;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 100px;
+      margin-right: 10px;
+      width: 100px;
+    }
+  }
+  nav {
+    ul {
+      display: flex;
+      li {
+        display: flex;
+        align-items: center;
+        a {
+          font-weight: 600;
+          padding-right: 10px;
+          text-decoration: none;
+          &:hover {
+            color: darkred;
+          }
+        }
+      }
+    }
+  }
+  button {
+    font-weight: 500;
+    background: lightgreen;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s;
+  }
+}

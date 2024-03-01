@@ -1,0 +1,30 @@
+.main-news{
+    p{
+        text-align: center;
+    }
+    .form {
+        width: 500px;
+        background: antiquewhite;
+        padding: 60px;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 5px 17px 53px 17px rgba(0,0,0,0.67);
+-webkit-box-shadow: 5px 17px 53px 17px rgba(0,0,0,0.67);
+-moz-box-shadow: 5px 17px 53px 17px rgba(0,0,0,0.67);
+      
+      .control {
+        width: 100%;
+        background: lightgray;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        border: 1px;
+      }
+      .boton {
+        width: 100%;
+        border: none;
+        background: lightcoral;
+        padding: 12px;
+      }
+    }
+}
