@@ -11,7 +11,10 @@ h1 {
   text-decoration: underline;
 }
 
-.main-libros section .book .book-details .buy-button, .main-varitas section, .main-index section .product img, .main-index section {
+.main-libros section .book .book-details .buy-button,
+.main-varitas section,
+.main-index section .product img,
+.main-index section {
   padding: 1em;
   border-radius: 8px;
 }

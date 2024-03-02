@@ -25,14 +25,13 @@ header {
           font-weight: 600;
           padding-right: 10px;
           text-decoration: none;
-        
         }
       }
     }
   }
   button {
     font-weight: 500;
-    background: nth($list: $colores, $n:5 );
+    background: nth($list: $colores, $n: 5);
     padding: 5px 10px;
     border-radius: 50px;
     border: none;

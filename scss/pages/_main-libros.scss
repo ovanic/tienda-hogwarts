@@ -6,10 +6,10 @@
     // justify-content: center;
     background-color: #0b110d;
     .first-item {
-        img {
-          width: 100%;
-          height: 100%;
-        }
+      img {
+        width: 100%;
+        height: 100%;
+      }
     }
   }
   section {
@@ -18,9 +18,9 @@
     padding: 1em;
     background-color: #c3aa72;
     border-radius: 8px;
-    box-shadow: 5px 17px 53px 17px rgba(0,0,0,0.67);
--webkit-box-shadow: 5px 17px 53px 17px rgba(0,0,0,0.67);
--moz-box-shadow: 5px 17px 53px 17px rgba(0,0,0,0.67);
+    box-shadow: 5px 17px 53px 17px rgba(0, 0, 0, 0.67);
+    -webkit-box-shadow: 5px 17px 53px 17px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 5px 17px 53px 17px rgba(0, 0, 0, 0.67);
     .book {
       display: flex;
       margin-bottom: 2em;
@@ -35,7 +35,7 @@
 
         .buy-button {
           @extend %estilos;
-          background-color: nth($list: $colores, $n:2 );
+          background-color: nth($list: $colores, $n: 2);
           color: #fff;
           padding: 0.5em 1em;
           text-decoration: none;

@@ -1,19 +1,19 @@
 @media only screen and (max-width: 576px) {
-    header {
-      flex-direction: column;
-    }
+  header {
+    flex-direction: column;
   }
-  @media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 
-    .banner {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
+  .banner {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 
-    section {
-        grid-template-columns: 1fr;
-    }
+  section {
+    grid-template-columns: 1fr;
+  }
 }
