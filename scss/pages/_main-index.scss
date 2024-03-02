@@ -23,7 +23,9 @@
     padding: 1em;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 17px 53px 17px rgba(0,0,0,0.67);
+-webkit-box-shadow: 5px 17px 53px 17px rgba(0,0,0,0.67);
+-moz-box-shadow: 5px 17px 53px 17px rgba(0,0,0,0.67);
 
     .product {
       text-align: center;

@@ -3,4 +3,17 @@
       flex-direction: column;
     }
   }
-  
+  @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .banner {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    section {
+        grid-template-columns: 1fr;
+    }
+}
